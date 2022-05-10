@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./main.css">
+
+  <title>Frontend Mentor | Loopstudios landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; padding-block: 1rem }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header class="main-header">
+    <div class="container">
+      <!-- Top Navigation  -->
+      <nav class="main-navigation">
+        <a href="index.html">
+          <img src="./images/logo.svg" alt="Loopstudios logo" class="logo-img">
+        </a>
+        <button class="btn menu-toggler" id="open-btn">
+          <img src="./images/icon-hamburger.svg" alt="hamburger icon" class="open-menu-icon">
+        </button>
+        <!-- Menu navigation wrapper -->
+        <div class="nav-menu-wrapper">
+          <header class="menu-header">
+            <img src="./images/logo.svg" alt="Loopstudios logo" class="menu-header-logo">
+            <button class="btn" id="close-btn">
+              <img src="./images/icon-close.svg" alt="close icon">
+            </button>
+          </header>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Events</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Products</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Support</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Header Title Content -->
+      <h1 class="header-title">Immersive experiences <span>that deliver</span></h1>
+    </div>
+  </header>
+  <!-- Intro Section -->
+  <section class="intro-section">
+    <div class="container intro-grid">
+      <!-- Intro Img -->
+      <picture class="intro-img">
+        <source srcset="./images/desktop/image-interactive.jpg" media="(min-width: 800px)">
+        <img src="./images/mobile/image-interactive.jpg" alt="">
+      </picture>
+      <!-- Intro Content -->
+      <div class="intro-section-content">
+        <h3 class="section-title">The leader in interactive VR</h3>
+        <p class="content">Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- Our Creation Section -->
+  <section class="our-creation">
+    <div class="container creation-section-grid">
+      <!-- Section Title & CTA Button -->
+      <h3 class="section-title">Our creations</h3>
+      <!-- <header class="our-creation-header">
+      </header> -->
+      
+      <div class="our-creation-grid">
+        <!-- Single Element -->
+        <article class="single-creation" data-name="deep-earth">
+          <p class="creation-name">Deep <br> earth</p>
+        </article>
+        <!-- Single Element -->
+        <article class="single-creation" data-name="night-arcade">
+          <p class="creation-name">Night <br> arcade</p>
+        </article>
+        <!-- Single Element -->
+        <article class="single-creation" data-name="soccer-team">
+          <p class="creation-name">Soccer <br> team VR</p>
+        </article>
+        <!-- Single Element -->
+        <article class="single-creation" data-name="the-grid">
+          <p class="creation-name">The <br> grid</p>
+        </article>
+         <!-- Single Element -->
+         <article class="single-creation" data-name="from-up-above">
+          <p class="creation-name">From up <br> above VR</p>
+        </article>
+         <!-- Single Element -->
+         <article class="single-creation" data-name="pocket-borealis">
+          <p class="creation-name">Pocket <br> borealis</p>
+        </article>
+         <!-- Single Element -->
+         <article class="single-creation" data-name="curiosity">
+          <p class="creation-name">The <br> curiosity</p>
+        </article>
+        <!-- Single Element -->
+        <article class="single-creation" data-name="fisheye">
+          <p class="creation-name">Make it <br> fisheye</p>
+        </article>
+      </div>
+      <a href="#" class="btn btn-outline grid-btn">see all</a>
+    </div>
+  </section>
+  <footer class="page-footer">
+    <div class="container footer-grid">
+      <a href="index.html" class="logo-wrapper">
+        <img src="./images/logo.svg" alt="Loopstudios logo" class="logo-img">
+      </a>
+      <!-- Footer Nav -->
+      <ul class="footer-nav">
+        <li class="footer-nav-item">
+          <a href="#" class="footer-nav-link">About</a>
+        </li>
+        <li class="footer-nav-item">
+          <a href="#" class="footer-nav-link">Careers</a>
+        </li>
+        <li class="footer-nav-item">
+          <a href="#" class="footer-nav-link">Events</a>
+        </li>
+        <li class="footer-nav-item">
+          <a href="#" class="footer-nav-link">Products</a>
+        </li>
+        <li class="footer-nav-item">
+          <a href="#" class="footer-nav-link">Support</a>
+        </li>
+      </ul>
+      <!-- Social Icons -->
+      <div class="sm-wrapper">
+       <a href="#" class="social-link">
+        <img src="./images/icon-facebook.svg" alt="facebook icon" class="sm-icon">
+       </a>
+       <a href="#" class="social-link">
+        <img src="./images/icon-twitter.svg" alt="twitter icon" class="sm-icon">
+       </a>
+       <a href="#" class="social-link">
+        <img src="./images/icon-pinterest.svg" alt="pinterest icon" class="sm-icon">
+       </a>
+       <a href="#" class="social-link">
+        <img src="./images/icon-instagram.svg" alt="instagram icon" class="sm-icon">
+       </a>
+      </div>
+      <!-- Legal Text -->
+      <p class="legal">© 2021 Loopstudios. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Zuzana83/loopstudio-landing-page">z83studio</a>.
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
